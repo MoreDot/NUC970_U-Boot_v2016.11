@@ -20,6 +20,6 @@ config NUC970
 
 config NUC970_HW_CHECKSUM
 	bool
-	default y if TARGET_NUC970_TOMATO
+	default n if TARGET_NUC970_TOMATO
 
 endif

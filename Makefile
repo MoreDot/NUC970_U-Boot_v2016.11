@@ -247,7 +247,8 @@ CROSS_COMPILE ?=
 endif
 
 # Force set CROSS_COMPILE to arm-linux-
-CROSS_COMPILE=arm-linux-
+#CROSS_COMPILE=arm-linux-
+CROSS_COMPILE=arm-linux-gnueabihf-
 
 KCONFIG_CONFIG	?= .config
 export KCONFIG_CONFIG
